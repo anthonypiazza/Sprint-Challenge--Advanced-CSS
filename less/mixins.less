@@ -1,1 +1,19 @@
 // Mixins Here
+
+.display() {
+    display: flex;
+}
+
+.border-radius() {
+    border-radius: 5px;
+}
+
+.btn-styling(@text-color,@m-left) {
+    background-color: @btn-bg-color; 
+    border: none;
+    font-size: 18px;
+    color: @text-color;
+    padding: 7px 5%;
+    .border-radius;
+    margin-left: @m-left;
+}

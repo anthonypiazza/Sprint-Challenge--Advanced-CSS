@@ -164,8 +164,11 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 12px;
-  margin-left: 5px;
+  padding-top: 12px;
+  margin: 0px 23.5%;
+  background-color: #F6F6F6;
+  color: #454A59;
+  border-color: #F1F1F1;
 }
 nav .nav-logo {
   margin-bottom: 20px;
@@ -174,9 +177,10 @@ nav .nav-logo h1 {
   font-size: 40px;
 }
 nav .nav-items {
-  width: 20%;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 13px;
+  width: 37.5%;
 }
 nav .nav-items a {
   font-size: 16px;
@@ -190,6 +194,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -232,6 +239,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn button {
+  background-color: #22283A;
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 7px 5%;
+  border-radius: 5px;
+  margin-left: 1px;
 }
 .home .walk .walk-img {
   width: 46%;
