@@ -8,9 +8,18 @@ nav {
     background-color: @wild-sand;
     color: @river-bend;
     border-color: @sea-shell;
+    
+    @media @mobile {
+        margin: 0px;
+        max-width: 500px;
+    }
 
     .nav-logo {
         margin-bottom: 20px;
+        
+        @media @mobile {
+            margin-left: 14px;
+        }
 
         h1{
             font-size: 40px;
@@ -22,6 +31,11 @@ nav {
         justify-content: space-between;
         padding-bottom: 13px;
         width: 37.5%;
+
+        @media @mobile {
+            width: 78%;
+            margin-left: 15px; 
+        }
 
         a{
             font-size: 16px;
