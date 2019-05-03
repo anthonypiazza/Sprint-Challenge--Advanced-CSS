@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive has one master layout that incorporates breakpoints while adaptive requires multiple layouts for different screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means you design a mobile view from the start and then progress to larger screens. Desktop first means you design from the largest screen size down to the smallest.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Tells us the standard HTML font-size is 10px, allows for easy rem unit conversion. (i.e) 1.2rem = 12px
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing consists of three components. 1) Syntax to code in, differs slightly from CSS, 2) Node which compiles the LESS syntax and translates it into CSS to function properly, 3) CSS which is output from the Node compiler and should never be edited again. CSS is transferrable to LESS, but LESS syntax is not transferrable to CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is the import syntax as it allows me to really keep the code organized and sectioned for easy accessibility and readability. The concept that gives me the most trouble is that sometimes when I Save the file and the Yarn compiler throws an error and doesn’t update the page, I don’t see the error and keep trying new measurements but nothing changes until I check the bash script after wasting time.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
